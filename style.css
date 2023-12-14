@@ -4,8 +4,20 @@
     padding:0;
 }
 .toparea{
-    background:#AB524D;
+    background:lightcoral;
     padding:5px 0;
     color:white;
     text-align:center;
+}
+.logoarea{
+    background:orange;
+    padding:45px 0;
+    color:white;
+    text-align:center;
+}
+.logoarea h2{
+    color:chocolate;
+}
+.logoarea h4{
+    color:black;
 }
