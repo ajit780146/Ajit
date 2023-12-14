@@ -3,3 +3,9 @@
     margin:0;
     padding:0;
 }
+.toparea{
+    background:orange;
+    padding:5px;
+    color:white;
+    text-align:center;
+}
