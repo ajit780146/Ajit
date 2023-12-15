@@ -1,6 +1,6 @@
 body{
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
     background:green;
 }
 .toparea{
@@ -8,6 +8,14 @@ body{
     padding:10px 0;
     color:white;
     text-align:center;
+}
+.gpa{
+    background:white;
+    vertical-align:middle;
+}
+.gpa img{
+    width:1500px;
+    vertical-align:middle;
 }
 .logoarea{
     padding:34px 0;
@@ -56,8 +64,13 @@ body{
         background:transparent;
     }
     .carea p{
-        background:white;
+        color:#727369;
         padding:20px 0;
+        background:white;
+    }
+    .carea p a{
+        text-decoration:none;
+        color:#754027;
     }
 .alumni{
     background:white;
@@ -69,7 +82,8 @@ body{
 }
 .footerarea{
     padding:50px 0px;
-    background:#1A1A1A;
+    background: #1a1a1a;
+ 
 }
 .footerarea h4{
     border-left:solid 5px white;
@@ -79,16 +93,32 @@ body{
 .footerarea p{
     color:#F2C38B;
 }
+.footerarea p a{
+    color:#D37F57;
+    text-decoration:none;
+}
+.footerarea p a:hover{
+    color:#F2C38B;
+}
 .footerarea p:nth-child(3){
     color:#C85029;
 }
 .footerarea p:nth-child(4){
     color:#C85029;
 }
-.footerarea ul li{
+.footerarea ul{
     list-style-type: none;
     color:#D36F35;
+    padding:2px 0;
 }
 .text p{
     color:#F2C36E;
+}
+.text1 p{
+    text-align:center;
+    color:white;
+}
+.text1 p a{
+    text-decoration:none;
+    color:#D36F35;
 }
