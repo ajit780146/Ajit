@@ -83,6 +83,7 @@ body{
 .footerarea{
     padding:60px 0px;
     background: #1a1a1a;
+   
  
 }
 .footerarea h4{
@@ -110,10 +111,18 @@ body{
     list-style-type: none;
     color:#D36F35;
     padding:2px 0;
+
 }
 .footerarea ul li a{
     color:#D36F35;
     text-decoration:none;
+}
+.footerarea ul li{
+    transition:all 2s;
+}
+.footerarea ul li:hover{
+    transform:translatex(5px);
+    
 }
 .text p{
     color:#F2C36E;
