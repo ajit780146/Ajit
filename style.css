@@ -1,7 +1,8 @@
 body{
     margin:0px;
     padding:0px;
-    background:green;
+    background-image:url('background.webp');
+  
 }
 .toparea{
     background:#A64E49;
@@ -9,13 +10,9 @@ body{
     color:white;
     text-align:center;
 }
-.gpa{
-    background:white;
-    vertical-align:middle;
-}
-.gpa img{
-    width:1500px;
-    vertical-align:middle;
+.toparea p a{
+    text-decoration:none;
+    color:white;
 }
 .logoarea{
     padding:34px 0;
@@ -28,6 +25,9 @@ body{
     }
     .logoarea h4{
         color:black;
+    }
+    .logoarea h1{
+        text-shadow: 2px 8px 6px #0003, 0 -5px 16px #ffffff4d;
     }
 .parea{
     background:white;
@@ -45,7 +45,7 @@ body{
     }
 
 .carea{
-    background:rgb(157, 147, 147);
+    background:rgb(157, 147, 147,transparent);
     text-align:center;
     padding:48px 0;
 }
@@ -81,7 +81,7 @@ body{
     padding:60px 0 90px 0;
 }
 .footerarea{
-    padding:50px 0px;
+    padding:60px 0px;
     background: #1a1a1a;
  
 }
@@ -110,6 +110,10 @@ body{
     list-style-type: none;
     color:#D36F35;
     padding:2px 0;
+}
+.footerarea ul li a{
+    color:#D36F35;
+    text-decoration:none;
 }
 .text p{
     color:#F2C36E;
