@@ -69,6 +69,7 @@ body{
 }
 .footerarea{
     padding:50px 0px;
+    background:#1A1A1A;
 }
 .footerarea h4{
     border-left:solid 5px white;
@@ -85,6 +86,9 @@ body{
     color:#C85029;
 }
 .footerarea ul li{
-    
     list-style-type: none;
+    color:#D36F35;
+}
+.text p{
+    color:#F2C36E;
 }
