@@ -119,6 +119,7 @@ body{
 }
 .footerarea ul li{
     transition:all 2s;
+    padding:5px 0;
 }
 .footerarea ul li:hover{
     transform:translatex(5px);
