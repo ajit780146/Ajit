@@ -1,23 +1,90 @@
-.body{
-    background:black;
+body{
     margin:0;
     padding:0;
+    background:green;
 }
 .toparea{
-    background:lightcoral;
-    padding:5px 0;
+    background:#A64E49;
+    padding:10px 0;
     color:white;
     text-align:center;
 }
 .logoarea{
-    background:orange;
-    padding:45px 0;
-    color:white;
+    padding:34px 0;
+    color:#74353F;
+    background:#F2C38B;
     text-align:center;
 }
-.logoarea h2{
-    color:chocolate;
+    .logoarea img{
+        height:110px;
+    }
+    .logoarea h4{
+        color:black;
+    }
+.parea{
+    background:white;
+    padding:48px 0px;
+    text-align:center;
 }
-.logoarea h4{
-    color:black;
+    .parea img:last-child{
+        width:210px;
+    }
+    .parea p:last-child{
+        text-align:right;
+    }
+    .parea p{
+        text-align: justify;
+    }
+
+.carea{
+    background:rgb(157, 147, 147);
+    text-align:center;
+    padding:48px 0;
+}
+    .box{
+        background:white;
+        padding:38px 10px;
+        margin:20px 2px;
+    }
+    .box img{
+        height:150px;
+        transition:all 2s;
+        border-radius:50%;
+    }
+    .box img:hover{
+        transform: rotate(360deg);
+        background:transparent;
+    }
+    .carea p{
+        background:white;
+        padding:20px 0;
+    }
+.alumni{
+    background:white;
+    background-image:url('graduation.jpg');
+    background-size:1500px 310px;
+    background-repeat: no-repeat;
+    text-align:center;
+    padding:60px 0 90px 0;
+}
+.footerarea{
+    padding:50px 0px;
+}
+.footerarea h4{
+    border-left:solid 5px white;
+    padding:0 10px;
+    color: white;
+}
+.footerarea p{
+    color:#F2C38B;
+}
+.footerarea p:nth-child(3){
+    color:#C85029;
+}
+.footerarea p:nth-child(4){
+    color:#C85029;
+}
+.footerarea ul li{
+    
+    list-style-type: none;
 }
