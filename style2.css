@@ -1,0 +1,119 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:white;
+  
+}
+.toparea{
+    background:#A64E49;
+    padding:10px 0;
+    color:white;
+    text-align:center;
+}
+.toparea p a{
+    text-decoration:none;
+    color:white;
+}
+.logoarea{
+    padding:34px 0;
+    color:#74353F;
+    background:#F2C38B;
+    text-align:center;
+}
+    .logoarea img{
+        height:110px;
+    }
+    .logoarea h4{
+        color:black;
+    }
+    .logoarea h1{
+        text-shadow: 2px 8px 6px #0003, 0 -5px 16px #ffffff4d;
+    }
+
+.footerarea{
+    padding:60px 0px;
+    background: #1a1a1a;
+   
+ 
+}
+.footerarea h4{
+    border-left:solid 5px white;
+    padding:0 10px;
+    color: white;
+}
+.footerarea p{
+    color:#F2C38B;
+}
+.footerarea p a{
+    color:#D37F57;
+    text-decoration:none;
+}
+.footerarea p a:hover{
+    color:#F2C38B;
+}
+.footerarea p:nth-child(3){
+    color:#C85029;
+}
+.footerarea p:nth-child(4){
+    color:#C85029;
+}
+.footerarea ul{
+    list-style-type: none;
+    color:#D36F35;
+    padding:2px 0;
+
+}
+.footerarea ul li a{
+    color:#D36F35;
+    text-decoration:none;
+}
+.footerarea ul li{
+    transition:all 2s;
+    padding:5px 0;
+}
+.footerarea ul li:hover{
+    transform:translatex(5px);
+    
+}
+.text p{
+    color:#F2C36E;
+}
+.text1 p{
+    text-align:center;
+    color:white;
+}
+.text1 p a{
+    text-decoration:none;
+    color:#D36F35;
+}
+.pass1{
+    height:1px;
+    width:100%;
+    background-image:linear-gradient(to left,transparent,white,transparent);
+}
+.pass{
+    background:white;
+    text-align: center;
+    padding:0 80px;
+}
+.p1{
+    background:#F8F9FA;
+    width:100%;
+    text-align: center;
+    padding-left:190px ;
+}
+.pass5{
+    background:white;
+    padding:50px 0;
+    text-align:center;
+}
+.pass5 p{
+    text-align:left;
+}
+.pass5 table{
+    border:1px solid #dee2e6;
+    padding:0;
+}
+.pass5 table th{
+    background:#C25B56;
+}
