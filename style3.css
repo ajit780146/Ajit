@@ -102,23 +102,66 @@ body{
     text-align: center;
     padding-left:190px ;
 }
-.pass5{
-    background:white;
-    padding:40px 0;
-    text-align:center;
-}
-.pass5 p{
-    text-align:left;
-}
-.pass5 table{
-    border:1px solid #dee2e6;
-    margin:5px 0;
-    text-align:left;
+.photo{
     width:100%;
+    background:white;
+    text-align:center;
+    padding-top:50px;
 }
-.pass5 table th{
-    background:#C25B56;
+.photo hr{
+    margin:0 20px;
 }
-.pass5 h3{
-    text-align:left;
+.photo1{
+    width:100%;
+    background:white;
+    text-align:center;
+    padding:50px 150px;
+    margin-right:150px;
+}
+.photo1 img{
+    width:250px;
+    height:250px;
+    margin:20px 50px;
+
+}
+.photo1 h2{
+    color:#B65651;
+}
+.photo2{
+    width:100%;
+    background:white;
+    text-align:center;
+    padding:50px 150px;
+    margin-right:150px;
+}
+.photo2 img{
+    width:250px;
+    height:250px;
+    margin:20px 50px;
+
+}
+.photo2 h2{
+    color:#B65651;
+}
+.photo4{
+    width:100%;
+    background:white;
+    text-align:center;
+    padding:10px 150px;
+    margin-right:150px;
+}
+.photo4 img{
+    width:250px;
+    height:250px;
+    margin:20px 50px;
+
+}
+.photo2 h4{
+    color:#B65651;
+}
+.pass7{
+    height:2px;
+    width:100%;
+    background-image:linear-gradient(to left,transparent,black,transparent);
+    margin:20px 0px;
 }
