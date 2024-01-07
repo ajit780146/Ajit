@@ -4,9 +4,9 @@
 			width:100%;
 		  	background:#ea6;
             text-align: center;
-            padding:10px 0;
+            padding:20px 0px;
 		}
-		#logo
+		.logo
 		{
 			
 			width:100%;
@@ -14,22 +14,15 @@
 			float:left;
 			
 		}
-		#text
+		.text
 		{
-			height:90px;
 			width:100%;
 		  	 background:#ea6;
 			float:left;
 			color:red;
 			
 		}
-        .p1{
-            background-image:url("ajit.gif");
-            width:100%;
-            text-align: center;
-            padding-left:190px ;
-        }
-		#link
+		.link
 		{
 			height:90px;
 			width:100%;
@@ -37,31 +30,31 @@
 			float:left;
 			
 		}
-		#admission
+		.admission
 		{
-			height:90px;
-			width:190px;
+			width:100%;
 		  	background:#ea6;
 			float:left;
+			text-align: center;
 			
 		}
-		#admission p 
+		.admission p 
 		{
 		  	background:red;
 			font-size:20px;
 			padding:10px;
 		}
-		#admission p:hover 
+		.admission p:hover 
 		{
 		  	background:#ead;
 			
 		}
-		#link ul li{
+		.link ul li{
 			list-style:none;
 			float:left;
 			margin:5px;
 		}
-		#link ul li:hover{
+		.link ul li:hover{
 			background:yellow;
 			color:blue;
 		}
@@ -73,8 +66,7 @@
 			text-decoration:none;
 			color:black;
 		}
-		#darea{
-			height:50px;
+		.darea{
 			width:100%;
 		  	background:url('ajit.gif');
 			float:left;
@@ -82,29 +74,28 @@
 			top:0;
 			z-index:1000;
 		}
-		#darea ul li {
+		.darea ul li {
 			float:left;
 			color:white;
 			list-style:none;
 			padding:5px;
 			font-size:20px;
-			margin-left:25px;
+			margin-right:25px;
 			
 		}
-		#darea ul li a{
+		.darea ul li a{
 			color:white;
 			text-decoration:none;
 		}
-		#darea ul li a:hover{
+		.darea ul li a:hover{
 			color:blue;
 			background:#c23;
 			
 		}
 		
-		#show{
-			height:450px;
+		.show{
 			width:100%;
-			background:red;
+			background:white;
 			float:left;
 		}
 		.da{
@@ -118,15 +109,16 @@
 					font-size:50px;
 					text-shadow: 5px 5px 10px red;
 				}
-		#show1{
-			height:500px;
+		.show1{
 			width:100%;
 			background:url('school.jpg');
 			float:left;
+			padding:80px;
+			margin:80px;
 		}
-		#s{
+		.s{
 			height:400px;
-			width:400px;
+			width:100%;
 			background:white;
 			float:left;
 			margin:50px;
@@ -134,38 +126,38 @@
 			border-radius:30px 0px 0px 30px;
 			
 		}
-		#s p a:hover{
+		.s p a:hover{
 			color:blue;
 		}
-		#s1{
+		.s1{
 			height:400px;
-			width:600px;
+			width:100%;
 			background:rgb(13,3,43);
 			float:left;
 			margin:50px;
 			border-radius:20px;
 		}
-		#s1 p{
+		.s1 p{
 			padding:10px;
 			font-size:20px;
 			color:#5dc;
 			font-style:italic;
 		}
-		#s1 h2{
+		.s1 h2{
 			text-align:center;
 			color:rgb(45,233,121);
 			font-size:30px;
 		}
-		#s1 h3{
+		.s1 h3{
 			text-align:center;
 			color:rgb(214,213,11);
-			font-size:30px;
+			font-size:20px;
 		}
-		#s p{
+		.s p{
 			text-align:center;
 			font-size:20px;
 		}
-		#s p a{
+		.s p a{
 			text-decoration:none;
 		}
 		.details{
