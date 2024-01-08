@@ -113,8 +113,7 @@
 			width:100%;
 			background:url('school.jpg');
 			float:left;
-			padding:80px;
-			margin:80px;
+			padding-right: 120px;
 		}
 		.s{
 			height:400px;
@@ -171,50 +170,52 @@
 					display:block;
 					font-size:50px;
 				}
-		#c1:hover .details{
+		.c1:hover .details{
 
 					display:block;
 					bottom:0;
 					transition:all 2s;
 				}
-		#circle{
-			height:1350px;
+		.circle{
+			
 			width:100%;
 			background:#CCFFFF;
 			float:left;
 		}
-		#c{
+		.c{
 			height:70px;
-			width:1260px;
+			width:100%;
 			background:#aec;
 			float:left;
+			text-align:center;
 		}
-		#ca1{
+		.ca1{
 			height:70px;
 			width:500px;
 			background:#aec;
 			float:left;
 		}
-		#ca2{
+		.ca2{
 			height:70px;
 			width:260px;
 			background:#aec;
 			float:left;
+			text-align: center;
 		}
-		#ca3{
+		.ca3{
 			height:70px;
 			width:500px;
 			background:#aec;
 			float:left;
 		}
 		
-		#c h1{
+		.c h1{
 			font-style:italic;
 			overflow:hidden;
 			
 		}
 		
-		#c1{
+		.c1{
 			height:320px;
 			width:340px;
 			background:#cb1;
@@ -226,28 +227,28 @@
 			
 			
 		}
-		#c1 img{
+		.c1 img{
 			height:320px;
 			width:340px;
 			border-radius:50%;
 			opacity:0.7;
 			transition:transform 0s 0s ease;
 		}
-		#c1 img:hover{
+		.c1 img:hover{
 			transform:scale(1.2,1.2);
 			opacity:1;
 		}
-		#a1 h2{
+		.a1 h2{
 			margin-left:110px;
 			font-size:30px;
 		}
-		#c2:hover .details{
+		.c2:hover .details{
 
 					display:block;
 					bottom:0;
 					transition:all 2s;
 				}
-		#c2{
+		.c2{
 			height:320px;
 			width:340px;
 			background:#aae;
@@ -258,24 +259,24 @@
 			position:relative;
 		
 		}
-		#c2 img{
+		.c2 img{
 			height:320px;
 			width:340px;
 			border-radius:50%;
 			opacity:0.7;
 			transition:transform 0s 0s ease;
 		}
-		#c2 img:hover{
+		.c2 img:hover{
 			transform:scale(1.2,1.2);
 			opacity:1;
 		}
-		#c3:hover .details{
+		.c3:hover .details{
 
 					display:block;
 					bottom:0;
 					transition:all 2s;
 				}
-		#c3{
+		.c3{
 			height:320px;
 			width:340px;
 			background:#a55;
@@ -286,19 +287,19 @@
 			position:relative;
 		
 		}
-		#c3 img{
+		.c3 img{
 			height:320px;
 			width:340px;
 			border-radius:50%;
 			opacity:0.7;
 			transition:transform 0s 0s ease;
 		}
-		#c3 img:hover{
+		.c3 img:hover{
 			transform:scale(1.2,1.2);
 			opacity:1;
 		}
 		
-		#b1{
+		.b1{
 			height:320px;
 			width:340px;
 			background:#cb1;
@@ -308,24 +309,24 @@
 			overflow:hidden;
 			position:relative;
 		}
-		#b1 img{
+		.b1 img{
 			height:320px;
 			width:340px;
 			border-radius:50%;
 			opacity:0.7;
 			transition:transform 0s 0s ease;
 		}
-		#b1 img:hover{
+		.b1 img:hover{
 			transform:scale(1.2,1.2);
 			opacity:1;
 		}
-		#b1:hover .details{
+		.b1:hover .details{
 
 				display:block;
 					bottom:0;
 					transition:all 2s;
 				}
-		#b2{
+		.b2{
 			height:320px;
 			width:340px;
 			background:#aae;
@@ -335,24 +336,24 @@
 			overflow:hidden;
 			position:relative;
 		}
-		#b2 img{
+		.b2 img{
 			height:320px;
 			width:340px;
 			border-radius:50%;
 			opacity:0.7;
 			transition:transform 0s 0s ease;
 		}
-		#b2 img:hover{
+		.b2 img:hover{
 			transform:scale(1.2,1.2);
 			opacity:1;
 		}
-		#b2:hover .details{
+		.b2:hover .details{
 
 				display:block;
 				bottom:0;
 				transition:all 2s;
 		}
-		#b3{
+		.b3{
 			height:320px;
 			width:340px;
 			background:#a55;
@@ -362,36 +363,37 @@
 			overflow:hidden;
 			position:relative;
 		}
-		#b3 img{
+		.b3 img{
 			height:320px;
 			width:340px;
 			border-radius:50%;
 			opacity:0.7;
 			transition:transform 0s 0s ease;
 		}
-		#b3 img:hover{
+		.b3 img:hover{
 			transform:scale(1.2,1.2);
 			opacity:1;
 		}
-		#b3:hover .details{
+		.b3:hover .details{
 
 					display:block;
 					bottom:0;
 					transition:all 2s;
 				}
-		#event{
+		.event{
 			height:600px;
 			width:100%;
 			background:#e6a;
 			float:left;
 		}
-		#e{
+		.e{
 			height:100px;
 			width:100%;
-			
 			float:left;
+			text-align:center;
+			background-color:#CCFFFF ;
 		}
-		#e1{
+		.e1{
 			height:320px;
 			width:340px;
 			background:#cb1;
@@ -401,24 +403,24 @@
 			overflow:hidden;
 			position:relative;
 		}
-		#e1 img{
+		.e1 img{
 			height:320px;
 			width:340px;
 			border-radius:50%;
 			opacity:0.7;
 			transition:transform 0s 0s ease;
 		}
-		#e1 img:hover{
+		.e1 img:hover{
 			transform:scale(1.2,1.2);
 			opacity:1;
 		}
-		#e1:hover .details{
+		.e1:hover .details{
 
 					display:block;
 					bottom:0;
 					transition:all 2s;
 				}
-		#e2{
+		.e2{
 			height:320px;
 			width:340px;
 			background:#aae;
@@ -428,24 +430,24 @@
 			overflow:hidden;
 			position:relative;
 		}
-		#e2 img{
+		.e2 img{
 			height:320px;
 			width:340px;
 			border-radius:50%;
 			opacity:0.7;
 			transition:transform 0s 0s ease;
 		}
-		#e2 img:hover{
+		.e2 img:hover{
 			transform:scale(1.2,1.2);
 			opacity:1;
 		}
-		#e2:hover .details{
+		.e2:hover .details{
 
 					display:block;
 					bottom:0;
 					transition:all 2s;
 				}
-		#e3{
+		.e3{
 			height:320px;
 			width:340px;
 			background:#a55;
@@ -462,17 +464,17 @@
 			opacity:0.7;
 			transition:transform 0s 0s ease;
 		}
-		#e3 img:hover{
+		.e3 img:hover{
 			transform:scale(1.2,1.2);
 			opacity:1;
 		}
-		#e3:hover .details{
+		.e3:hover .details{
 
 					display:block;
 					bottom:0;
 					transition:all 2s;
 				}
-		#footer{
+		.footer{
 			height:550px;
 			width:1260px;
 			background:#E09407;
@@ -491,13 +493,13 @@
 		.f:hover{
 			border-color:rgb(21,92,99);
 		}
-		#f1{
+		.f1{
 			height:70px;
 			width:100%;
 			float:left;
 			padding:10px;
 		}
-		#f1 h1{
+		.f1 h1{
 			color:rgb(21,11,62);
 			text-align:center;
 			font-size:40px;
@@ -526,7 +528,7 @@
 					bottom:0;
 					transition:all 2s;
 				}
-		#down{
+		.down{
 			height:480px;
 			width:100%;
 			background:#2ab;
@@ -596,12 +598,12 @@
 			color:#3e3;
 			
 		}
-		#last{
+		.last{
 			height:60px;
 			width:1260px;
 			background:black;
 			float:left;
 		}
-		#last h3{
+		.last h3{
 			color:#C1C1C1;
 		}
