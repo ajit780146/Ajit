@@ -474,21 +474,23 @@
 					bottom:0;
 					transition:all 2s;
 				}
-		.footer{
+		.footer1{
 			height:550px;
-			width:1260px;
+			width:100%;
 			background:#E09407;
 			float:left;
+			text-align: center;
 		}
 		.f{
 			height:350px;
 			width:225px;
 			background:red;
 			float:left;
-			margin:40px 30px;
+			margin:40px 15px;
 			overflow:hidden;
 			position:relative;
 			border:solid 10px red;
+			text-align: center;
 		}
 		.f:hover{
 			border-color:rgb(21,92,99);
@@ -498,6 +500,7 @@
 			width:100%;
 			float:left;
 			padding:10px;
+			text-align: center;
 		}
 		.f1 h1{
 			color:rgb(21,11,62);
@@ -529,14 +532,15 @@
 					transition:all 2s;
 				}
 		.down{
-			height:480px;
+			height:520px;
 			width:100%;
-			background:#2ab;
+			background:black;
 			float:left;
+			padding:40px 0px;
 		}
 		.d{
-			height:480px;
-			width:315px;
+			height:440px;
+			width:100%;
 			background:black;
 			float:left;
 		}
@@ -585,13 +589,13 @@
 		}
 		.d form {
 			background:#a63;
-			height:290px;
-			width:280px;
+			height:380px;
+			width:100%;
 			border-radius:15px;
 		}
 		.d form label {
 			color:#4ab;
-			font-size:20px;
+			font-size:15px;
 			
 		}
 		.d form input:hover {
@@ -600,10 +604,11 @@
 		}
 		.last{
 			height:60px;
-			width:1260px;
+			width:100%;
 			background:black;
 			float:left;
+			text-align: center;
 		}
-		.last h3{
+		.last h4{
 			color:#C1C1C1;
 		}
